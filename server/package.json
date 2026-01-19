@@ -1,7 +1,9 @@
 {
   "type": "module",
   "scripts": {
-    "server": "tsx server.ts"
+    "server": "tsx server.ts",
+     "start": "node dist/server.js",
+     "build": "tsc"
   },
   "dependencies": {
     "@google/genai": "^1.35.0",
